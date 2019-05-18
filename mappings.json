@@ -34,13 +34,21 @@
     "global": "Ember.deprecate",
     "module": "@ember/application/deprecations",
     "export": "deprecate",
-    "deprecated": false
+    "deprecated": true,
+    "replacement": {
+      "module": "@ember/debug",
+      "export": "deprecate"
+    }
   },
   {
     "global": "Ember.deprecateFunc",
     "module": "@ember/application/deprecations",
     "export": "deprecateFunc",
-    "deprecated": false
+    "deprecated": true,
+    "replacement": {
+      "module": "@ember/debug",
+      "export": "deprecate"
+    }
   },
   {
     "global": "Ember.DefaultResolver",
